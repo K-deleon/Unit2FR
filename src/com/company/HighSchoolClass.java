@@ -1,12 +1,23 @@
 package com.company;
 
-/**
- * Created by kd944 on 11/2/17.
- */
+
 public class HighSchoolClass {
 
     private Student [] students;
-    
+
+    /*public Student getValedictorian(){
+        for(Student findVal: students){
+
+        }
+
+    }
+
+    public double getHonorsPercentage(){
+        if(Student.isHonors()){
+
+        }
+
+    }*/
 
 
 

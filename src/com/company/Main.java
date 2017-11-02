@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+    Code pls = new Code("Hey");
+    pls.hide(0,2);
+
     }
 }
