@@ -7,7 +7,6 @@ public class Code {
     private int endPos;
     private String xCode;
     private char[] codeArray;
-    private String regCode;
 
     public Code(String code){
 
@@ -33,9 +32,21 @@ public class Code {
 
     public void recover(int p1, int p2){
 
-        regCode = myCode;
+        System.arraycopy(xCode, p1, codeArray, p2, (p2-p1));
 
     }
 
 
 }
+
+
+/*
+Pls help this is what I wanna do???
+
+- Take a string (pre-code word)
+- Convert word to  X's
+    + Store this as new String so old String isn't lost??
+    + Print new string if asked? (BUT ITS VOID WHAT DOOOOO)
+- When asked to recover just set new String to input???
+
+ */

@@ -2,17 +2,24 @@ package com.company;
 
 public class Student {
 
-    public Student(){
+    public double gpa;
 
+    public Student(double g){
+        gpa = g;
     }
 
     public double getGPA(){
-        return 0;
+
+        return gpa;
+
     }
 
     public boolean isHonors(){
-    return true;
+
+        return gpa > 4.0;
+
     }
+
 
 
 }

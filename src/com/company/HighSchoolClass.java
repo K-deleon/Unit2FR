@@ -5,19 +5,23 @@ public class HighSchoolClass {
 
     private Student [] students;
 
-    /*public Student getValedictorian(){
+    public Student getValedictorian(){
         for(Student findVal: students){
 
         }
-
+        return valedictorian;
     }
 
     public double getHonorsPercentage(){
-        if(Student.isHonors()){
+        int num = 0;
+        for (Student mer: students){
 
+            if(mer.isHonors()){
+                num++;
+            }
         }
-
-    }*/
+        return (double)num/students.length;
+    }
 
 
 
