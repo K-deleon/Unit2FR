@@ -6,6 +6,7 @@ public class Main {
 
     Code pls = new Code("Hey");
     pls.hide(0,2);
+    pls.recover(0,2);
 
     }
 }

@@ -7,7 +7,10 @@ public class HighSchoolClass {
 
     public Student getValedictorian(){
         for(Student findVal: students){
-
+            Student valedictorian;
+            double vale = 0;
+            if(findVal.getGPA() > vale);
+            valedictorian = findVal;
         }
         return valedictorian;
     }
